@@ -1,0 +1,25 @@
+
+.theme-buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    div {
+        display: block;
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        margin-left: 15px;
+        border-radius: 50%;
+      }
+      
+  }
+
+  .mode-toggle {
+    margin-right: auto;
+    img {
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+      }
+  }

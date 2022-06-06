@@ -1,0 +1,39 @@
+.content {
+  padding: 15px;
+  ul {
+    display: flex;
+    font-size: 16px;
+    color: black;
+    padding: 0;
+    margin: 0;
+    listy-style: none;
+    li {
+      display: flex;
+      font-size: 16px;
+      color: black;
+      margin-right: 15px;
+      text-decoration: underline;
+      cursor: pointer;
+      font-family: 'Roboto', sans-serif;
+    }
+  }
+  p {
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+}
+.dark {
+  .content {
+    background: black;
+    color: white;
+    ul {
+      color: white;
+      li {
+        color: white;
+      }
+    }
+    p {
+    }
+  }
+}
